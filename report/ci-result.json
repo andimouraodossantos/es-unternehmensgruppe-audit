@@ -1,0 +1,698 @@
+[
+  {
+    "path": "/",
+    "score": 0.84,
+    "performance": 0.58,
+    "accessibility": 0.96,
+    "best-practices": 0.96,
+    "seo": 0.85
+  },
+  {
+    "path": "/component/tags/tag/august-2023",
+    "score": 0.9,
+    "performance": 0.66,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/das-wichitigste-archiv",
+    "score": 0.88,
+    "performance": 0.67,
+    "accessibility": 0.96,
+    "best-practices": 0.96,
+    "seo": 0.92
+  },
+  {
+    "path": "/datenschutzerklaerung",
+    "score": 0.85,
+    "performance": 0.55,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/datenschutzerklaerung-esra",
+    "score": 0.87,
+    "performance": 0.61,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/datenschutzerklaerung-ibk",
+    "score": 0.86,
+    "performance": 0.58,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/datenschutzerklaerung-infoplan",
+    "score": 0.85,
+    "performance": 0.53,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/energiewirtschaft",
+    "score": 0.87,
+    "performance": 0.66,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=10",
+    "score": 0.85,
+    "performance": 0.57,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=10&amp;ajax=1",
+    "score": 0.81,
+    "performance": 0.76,
+    "accessibility": 0.82,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/energiewirtschaft?start=12",
+    "score": 0.85,
+    "performance": 0.6,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=12&amp;ajax=1",
+    "score": 0.85,
+    "performance": 0.85,
+    "accessibility": 0.82,
+    "best-practices": 0.96,
+    "seo": 0.75
+  },
+  {
+    "path": "/energiewirtschaft?start=14",
+    "score": 0.87,
+    "performance": 0.65,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=14&amp;ajax=1",
+    "score": 0.82,
+    "performance": 0.78,
+    "accessibility": 0.82,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/energiewirtschaft?start=16",
+    "score": 0.86,
+    "performance": 0.64,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=16&amp;ajax=1",
+    "score": 0.83,
+    "performance": 0.77,
+    "accessibility": 0.82,
+    "best-practices": 0.96,
+    "seo": 0.75
+  },
+  {
+    "path": "/energiewirtschaft?start=18",
+    "score": 0.87,
+    "performance": 0.66,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=18&amp;ajax=1",
+    "score": 0.84,
+    "performance": 0.83,
+    "accessibility": 0.82,
+    "best-practices": 0.96,
+    "seo": 0.75
+  },
+  {
+    "path": "/energiewirtschaft?start=2",
+    "score": 0.86,
+    "performance": 0.62,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=2&amp;ajax=1",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.82,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/energiewirtschaft?start=20",
+    "score": 0.87,
+    "performance": 0.66,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=20&amp;ajax=1",
+    "score": 0.85,
+    "performance": 0.86,
+    "accessibility": 0.82,
+    "best-practices": 0.96,
+    "seo": 0.75
+  },
+  {
+    "path": "/energiewirtschaft?start=22",
+    "score": 0.87,
+    "performance": 0.66,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=22&amp;ajax=1",
+    "score": 0.83,
+    "performance": 0.77,
+    "accessibility": 0.82,
+    "best-practices": 0.96,
+    "seo": 0.75
+  },
+  {
+    "path": "/energiewirtschaft?start=4",
+    "score": 0.86,
+    "performance": 0.63,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=4&amp;ajax=1",
+    "score": 0.82,
+    "performance": 0.76,
+    "accessibility": 0.82,
+    "best-practices": 0.96,
+    "seo": 0.75
+  },
+  {
+    "path": "/energiewirtschaft?start=6",
+    "score": 0.86,
+    "performance": 0.64,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=6&amp;ajax=1",
+    "score": 0.82,
+    "performance": 0.75,
+    "accessibility": 0.82,
+    "best-practices": 0.96,
+    "seo": 0.75
+  },
+  {
+    "path": "/energiewirtschaft?start=8",
+    "score": 0.87,
+    "performance": 0.65,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/energiewirtschaft?start=8&amp;ajax=1",
+    "score": 0.81,
+    "performance": 0.76,
+    "accessibility": 0.82,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/energiewirtschaft/apis-unser-steuerungsinstrument-fuer-ihre-regulierten-netze",
+    "score": 0.85,
+    "performance": 0.52,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/energiewirtschaft/effizienzwerte-2",
+    "score": 0.86,
+    "performance": 0.59,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/energiewirtschaft/einreichung-von-finalen-selbsterklaerungen-nach-strompbg-ewpbg",
+    "score": 0.86,
+    "performance": 0.57,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/energiewirtschaft/entflechtung-des-ladesaeulenbetriebs",
+    "score": 0.86,
+    "performance": 0.55,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/energiewirtschaft/finale-festlegung-zur-verteilung-von-mehrkosten",
+    "score": 0.86,
+    "performance": 0.56,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/energiewirtschaft/jetzt-vom-altschuldenentlastungsgesetz-profitieren",
+    "score": 0.86,
+    "performance": 0.55,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/energiewirtschaft/kanu-2-0-rueckstellung-aus-regulatorischer-und-handelsrechtlicher-sicht",
+    "score": 0.86,
+    "performance": 0.55,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/energiewirtschaft/sockeleffekt-nutzen",
+    "score": 0.85,
+    "performance": 0.5,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/es-rechtsanwaltsgesellschaft",
+    "score": 0.86,
+    "performance": 0.55,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/es-treuberater-gmbh",
+    "score": 0.86,
+    "performance": 0.54,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/ibk",
+    "score": 0.89,
+    "performance": 0.67,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/impressum",
+    "score": 0.9,
+    "performance": 0.74,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/impressum-esra",
+    "score": 0.9,
+    "performance": 0.74,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/impressum-ibk",
+    "score": 0.89,
+    "performance": 0.72,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/impressum-infoplan",
+    "score": 0.88,
+    "performance": 0.68,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/index.php?option=com_sppagebuilder&view=page&id=376",
+    "score": 0.88,
+    "performance": 0.64,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/index.php/datenschutzerklaerung",
+    "score": 0.85,
+    "performance": 0.56,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/index.php/energiewirtschaft/apis-unser-steuerungsinstrument-fuer-ihre-regulierten-netze",
+    "score": 0.86,
+    "performance": 0.57,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/index.php/infoplan",
+    "score": 0.86,
+    "performance": 0.56,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/index.php/kontakt1",
+    "score": 0.88,
+    "performance": 0.62,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/index.php/online-bewerbung-form",
+    "score": 0.87,
+    "performance": 0.59,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/karriere",
+    "score": 0.85,
+    "performance": 0.57,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/karriere?start=2",
+    "score": 0.85,
+    "performance": 0.58,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/karriere?start=2&amp;ajax=1",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.81,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/karriere/consultant-m-w-d-in-der-energiewirtschaftlichen-managementberatung",
+    "score": 0.87,
+    "performance": 0.64,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/karriere/junior-consultant-werkstudent-m-w-d-wirtschaftspruefung-steuerberatung",
+    "score": 0.88,
+    "performance": 0.64,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/karriere/steuerfachangestellte-n-m-w-d",
+    "score": 0.87,
+    "performance": 0.62,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/kommunalwirtschaft",
+    "score": 0.88,
+    "performance": 0.69,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/kommunalwirtschaft?start=2",
+    "score": 0.87,
+    "performance": 0.66,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/kommunalwirtschaft?start=2&amp;ajax=1",
+    "score": 0.8,
+    "performance": 0.71,
+    "accessibility": 0.82,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/kommunalwirtschaft?start=4",
+    "score": 0.86,
+    "performance": 0.64,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/kommunalwirtschaft?start=4&amp;ajax=1",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.82,
+    "best-practices": 0.96,
+    "seo": 0.75
+  },
+  {
+    "path": "/kommunalwirtschaft?start=6",
+    "score": 0.88,
+    "performance": 0.7,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/kommunalwirtschaft?start=6&amp;ajax=1",
+    "score": 0.84,
+    "performance": 0.83,
+    "accessibility": 0.81,
+    "best-practices": 0.96,
+    "seo": 0.75
+  },
+  {
+    "path": "/kommunalwirtschaft/aktuelle-beratungsthemen-fuer-kommunen",
+    "score": 0.86,
+    "performance": 0.54,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/kommunalwirtschaft/buergerbeteiligung-beim-ausbau-der-erneuerbaren-energien",
+    "score": 0.85,
+    "performance": 0.52,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/kommunalwirtschaft/das-kommunale-managementcockpit-fuer-haushaltssteuerung",
+    "score": 0.84,
+    "performance": 0.48,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/kommunalwirtschaft/haushaltskonsolidierung-fuer-kommunen",
+    "score": 0.87,
+    "performance": 0.61,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/kommunalwirtschaft/haushaltskonsolidierung-fuer-kommunen-2024",
+    "score": 0.87,
+    "performance": 0.59,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/kommunalwirtschaft/kommunale-gesamtabschluesse",
+    "score": 0.87,
+    "performance": 0.61,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/kommunalwirtschaft/kommunale-waermeplanung-2024",
+    "score": 0.86,
+    "performance": 0.57,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/kommunalwirtschaft/schulung-fuer-aufsichtsraete-kommunaler-unternehmen-in-nordrhein-westfalen",
+    "score": 0.87,
+    "performance": 0.65,
+    "accessibility": 0.96,
+    "best-practices": 0.96,
+    "seo": 0.92
+  },
+  {
+    "path": "/kontakt1",
+    "score": 0.87,
+    "performance": 0.59,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/online-bewerbung-form",
+    "score": 0.88,
+    "performance": 0.62,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/regulatorischer-fristenkalender",
+    "score": 0.8,
+    "performance": 0.39,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/regulatorischer-fristenkalender/frist-01-01-2026-veroeffentlichung-der-endgueltigen-netzentgelte-fuer-strom-und-gasverteilnetze",
+    "score": 0.85,
+    "performance": 0.52,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/regulatorischer-fristenkalender/frist-01-10-2025-meldung-ee-kostenwaelzung",
+    "score": 0.86,
+    "performance": 0.54,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/regulatorischer-fristenkalender/frist-15-10-2025-netznutzungsentgelte-strom-gas-2026",
+    "score": 0.85,
+    "performance": 0.53,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/regulatorischer-fristenkalender/frist-15-10-2025-uebermittlung-der-prognosedaten-fuer-entgangene-erloese-nach-19-abs-2-stromnev-des-folgejahres-beim-ubertragungsnetzbetreiber",
+    "score": 0.86,
+    "performance": 0.55,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/regulatorischer-fristenkalender/frist-30-04-2025-datenerhebung-zur-bestimmung-des-qualitaetselements-strom-2026",
+    "score": 0.86,
+    "performance": 0.55,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/regulatorischer-fristenkalender/frist-30-04-2025-meldepflicht-der-versorgungsunterbrechungen-strom",
+    "score": 0.85,
+    "performance": 0.53,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/regulatorischer-fristenkalender/frist-30-06-2024-kapitalkostenaufschlag-gas-strom-2026-regulaerer-antrag-auf-anpassung-der-erloesobergrenze",
+    "score": 0.88,
+    "performance": 0.64,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/regulatorischer-fristenkalender/frist-31-10-2025-veroeffentlichung-der-hochlastzeitfenster-im-internet-je-nach-netz-und-umspannebene",
+    "score": 0.85,
+    "performance": 0.53,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/treuberater",
+    "score": 0.89,
+    "performance": 0.68,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/treuberater-aktuell",
+    "score": 0.88,
+    "performance": 0.65,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/treuberater-archiv",
+    "score": 0.88,
+    "performance": 0.68,
+    "accessibility": 0.96,
+    "best-practices": 0.96,
+    "seo": 0.92
+  },
+  {
+    "path": "/ueber-uns",
+    "score": 0.86,
+    "performance": 0.59,
+    "accessibility": 0.96,
+    "best-practices": 0.96,
+    "seo": 0.92
+  }
+]
