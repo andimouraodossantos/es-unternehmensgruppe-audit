@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEO Workshop — ES-Unternehmensgruppe</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #1e1e2e;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    cursor: default;
+    user-select: none;
+  }
+
+  /* ── toolbar ── */
+  #toolbar {
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 8px 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,.35);
+  }
+  #toolbar span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a2e4a;
+    white-space: nowrap;
+  }
+  #toolbar .sep { width: 1px; height: 20px; background: #e2e8f0; margin: 0 4px; }
+  #toolbar button {
+    background: #f0f4f8;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #2d3748;
+    transition: background .15s;
+  }
+  #toolbar button:hover { background: #e2e8f0; }
+  #zoom-label { font-size: 12px; color: #718096; min-width: 40px; text-align: center; }
+
+  /* ── canvas ── */
+  #canvas-wrap {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  #canvas {
+    position: absolute;
+    top: 0; left: 0;
+    transform-origin: 0 0;
+    will-change: transform;
+  }
+
+  /* ── dot grid bg ── */
+  #canvas-wrap::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: radial-gradient(circle, #3a3a55 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── section ── */
+  .section {
+    position: absolute;
+    border-radius: 20px;
+    padding: 28px 28px 32px;
+  }
+  .section-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    opacity: .75;
+  }
+  .section-title {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 22px;
+    line-height: 1.25;
+  }
+
+  /* ── sticky ── */
+  .sticky {
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 12.5px;
+    line-height: 1.5;
+    box-shadow: 2px 4px 10px rgba(0,0,0,.12);
+    position: relative;
+    transition: transform .15s, box-shadow .15s;
+  }
+  .sticky:hover {
+    transform: translateY(-2px) rotate(.4deg);
+    box-shadow: 4px 8px 18px rgba(0,0,0,.18);
+    z-index: 10;
+  }
+  .sticky .stag {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    opacity: .65;
+  }
+  .sticky strong { font-weight: 700; display: block; margin-bottom: 3px; font-size: 13px; }
+  .sticky .arrow { font-size: 11px; opacity: .7; margin-top: 4px; }
+
+  /* sticky colors */
+  .s-yellow { background: #fef08a; color: #713f12; }
+  .s-red    { background: #fca5a5; color: #7f1d1d; }
+  .s-orange { background: #fdba74; color: #7c2d12; }
+  .s-blue   { background: #93c5fd; color: #1e3a5f; }
+  .s-green  { background: #86efac; color: #14532d; }
+  .s-purple { background: #c4b5fd; color: #3b0764; }
+  .s-pink   { background: #f9a8d4; color: #831843; }
+  .s-teal   { background: #5eead4; color: #134e4a; }
+  .s-white  { background: #fff; color: #1a202c; border: 1px solid #e2e8f0; }
+  .s-dark   { background: #1a2e4a; color: #e2e8f0; }
+
+  /* grid helpers */
+  .sticky-row { display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+  .sticky-col { display: flex; flex-direction: column; gap: 12px; }
+  .sub-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    margin: 14px 0 8px;
+    opacity: .6;
+  }
+
+  /* section backgrounds */
+  .bg-header    { background: #1a2e4a; }
+  .bg-ist       { background: #f0f4f8; }
+  .bg-gaps      { background: #fff5f5; }
+  .bg-keywords  { background: #ebf8ff; }
+  .bg-tech      { background: #fffaf0; }
+  .bg-roadmap   { background: #f0fff4; }
+  .bg-wins      { background: #fffff0; }
+
+  /* phase columns */
+  .phase-cols { display: flex; gap: 16px; align-items: flex-start; }
+  .phase-col  { display: flex; flex-direction: column; gap: 10px; width: 220px; }
+
+  /* header section specifics */
+  .header-inner { max-width: 520px; }
+  .header-main  { font-size: 34px; font-weight: 900; color: #fff; line-height: 1.15; margin-bottom: 10px; }
+  .header-sub   { font-size: 16px; color: #93c5fd; font-weight: 600; margin-bottom: 18px; }
+  .header-meta  { font-size: 12px; color: #94a3b8; }
+  .header-pill  {
+    display: inline-block;
+    background: rgba(255,255,255,.1);
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 11px;
+    color: #cbd5e1;
+    margin: 4px 4px 0 0;
+  }
+
+  /* roadmap phase headers */
+  .phase-header {
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.3;
+    margin-bottom: 2px;
+  }
+  .ph-blue   { background: #2b6cb0; }
+  .ph-green  { background: #276749; }
+  .ph-orange { background: #c05621; }
+
+  /* wins */
+  .win-sticky {
+    background: #fef9c3;
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 2px 4px 12px rgba(0,0,0,.1);
+    width: 240px;
+    transition: transform .15s, box-shadow .15s;
+  }
+  .win-sticky:hover {
+    transform: translateY(-3px) rotate(-.3deg);
+    box-shadow: 4px 10px 22px rgba(0,0,0,.16);
+  }
+  .win-sticky .star { font-size: 22px; margin-bottom: 8px; }
+  .win-sticky strong { font-size: 13.5px; font-weight: 800; color: #713f12; display: block; margin-bottom: 6px; }
+  .win-sticky p { font-size: 12px; color: #92400e; line-height: 1.5; margin-bottom: 6px; }
+  .win-sticky .cta { font-size: 11.5px; font-weight: 700; color: #b45309; }
+</style>
+</head>
+<body>
+
+<div id="toolbar">
+  <span>SEO Workshop · ES-Unternehmensgruppe</span>
+  <div class="sep"></div>
+  <button onclick="zoom(-0.1)">－</button>
+  <span id="zoom-label">65%</span>
+  <button onclick="zoom(+0.1)">＋</button>
+  <div class="sep"></div>
+  <button onclick="resetView()">Reset</button>
+  <button onclick="fitAll()">Fit</button>
+</div>
+
+<div id="canvas-wrap">
+  <div id="canvas">
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         SECTION 1 — HEADER
+    ════════════════════════════════════════════════════════════════════ -->
+    <div class="section bg-header" style="left:60px;top:60px;width:600px;min-height:260px;">
+      <div class="header-inner">
+        <div class="section-label" style="color:#60a5fa;">Workshop · März 2026</div>
+        <div class="header-main">SEO-Strategie<br>Relaunch</div>
+        <div class="header-sub">ES-Unternehmensgruppe</div>
+        <div class="header-meta">
+          <span class="header-pill">87 Seiten analysiert</span>
+          <span class="header-pill">9 Wettbewerber</span>
+          <span class="header-pill">Unlighthouse + Content-Audit</span>
+          <span class="header-pill">NRW-Fokus</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         SECTION 2 — IST-ZUSTAND
+    ════════════════════════════════════════════════════════════════════ -->
+    <div class="section bg-ist" style="left:700px;top:60px;width:580px;">
+      <div class="section-label" style="color:#4a5568;">Ausgangslage</div>
+      <div class="section-title" style="color:#1a2e4a;">Aktuelle Website-Struktur</div>
+
+      <div class="sticky-row">
+        <div class="sticky s-yellow" style="width:240px;">
+          <strong>Navigation</strong>
+          Energiewirtschaft · Kommunalwirtschaft · Über uns · Treuberater · Karriere · Kontakt
+        </div>
+        <div class="sticky s-yellow" style="width:240px;">
+          <strong>Leistungen</strong>
+          Wirtschaftsprüfung · Steuerberatung · Betriebswirtschaftliche Beratung
+        </div>
+      </div>
+      <div class="sticky-row">
+        <div class="sticky s-yellow" style="width:240px;">
+          <strong>Spezial-Tools</strong>
+          APIS (Regulatorisches Managementcockpit) · Kommunales Managementcockpit
+        </div>
+        <div class="sticky s-yellow" style="width:240px;">
+          <strong>Sonstiges</strong>
+          Infoplan · News-Slider
+        </div>
+      </div>
+
+      <div class="sticky s-pink" style="margin-top:4px;">
+        <strong>⚠ Fazit</strong>
+        Sehr schlanke Struktur — kaum themenspezifische Landingpages für SEO-relevante Keywords vorhanden.
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         SECTION 3 — CONTENT GAPS
+    ════════════════════════════════════════════════════════════════════ -->
+    <div class="section bg-gaps" style="left:60px;top:380px;width:1220px;">
+      <div class="section-label" style="color:#c53030;">Content-Analyse</div>
+      <div class="section-title" style="color:#7f1d1d;">Was fehlt? Content-Gaps vs. Wettbewerb</div>
+
+      <div style="display:flex;gap:32px;align-items:flex-start;">
+
+        <!-- Hochpriorität -->
+        <div>
+          <div class="sub-label" style="color:#c53030;">Hochpriorität — fast alle Wettbewerber</div>
+          <div class="sticky-row">
+            <div class="sticky s-red" style="width:180px;">
+              <div class="stag">Fehlt komplett</div>
+              <strong>Erneuerbare Energien</strong>
+              BET · Rödl · Energiesozietät · Ebner Stolz
+              <div class="arrow">→ Dedizierte Leistungsseite</div>
+            </div>
+            <div class="sticky s-red" style="width:180px;">
+              <div class="stag">Fehlt komplett</div>
+              <strong>Wärmewende / Fernwärme</strong>
+              BET · Rödl · Energiesozietät · Ebner Stolz
+              <div class="arrow">→ Seite + Newsletter</div>
+            </div>
+            <div class="sticky s-red" style="width:180px;">
+              <div class="stag">Fehlt komplett</div>
+              <strong>Wasserstoff</strong>
+              BET · Rödl · Energiesozietät
+              <div class="arrow">→ Dedicated Landingpage</div>
+            </div>
+          </div>
+          <div class="sticky-row">
+            <div class="sticky s-red" style="width:180px;">
+              <div class="stag">Fehlt komplett</div>
+              <strong>Dekarbonisierung</strong>
+              BET · Rödl · Ebner Stolz
+              <div class="arrow">→ Themencluster aufbauen</div>
+            </div>
+            <div class="sticky s-red" style="width:180px;">
+              <div class="stag">Fehlt komplett</div>
+              <strong>Digitalisierung</strong>
+              BET · Rödl · Ebner Stolz
+              <div class="arrow">→ Seite mit Praxisbeispielen</div>
+            </div>
+            <div class="sticky s-red" style="width:180px;">
+              <div class="stag">Fehlt komplett</div>
+              <strong>Regulierung (vertieft)</strong>
+              BET · Energiesozietät · Rödl
+              <div class="arrow">→ Über APIS hinausgehend</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mittlere Priorität -->
+        <div>
+          <div class="sub-label" style="color:#c05621;">Mittlere Priorität</div>
+          <div class="sticky-col">
+            <div class="sticky s-orange" style="width:190px;">
+              <strong>M&A / Transaktionen</strong>
+              BET · Rödl · Ebner Stolz
+              <div class="arrow">→ Unter Beratungsleistungen</div>
+            </div>
+            <div class="sticky s-orange" style="width:190px;">
+              <strong>Förderberatung</strong>
+              Rödl
+              <div class="arrow">→ Seite + Checkliste</div>
+            </div>
+            <div class="sticky s-orange" style="width:190px;">
+              <strong>ESG / Nachhaltigkeits-berichterstattung</strong>
+              Ebner Stolz · Rödl
+              <div class="arrow">→ In WP integrieren o. eigene Seite</div>
+            </div>
+            <div class="sticky s-orange" style="width:190px;">
+              <strong>E-Mobilität</strong>
+              BET
+              <div class="arrow">→ Falls im Portfolio</div>
+            </div>
+            <div class="sticky s-orange" style="width:190px;">
+              <strong>Konzessionen</strong>
+              Rödl · BET
+              <div class="arrow">→ Unterseite Netzbewirtschaftung</div>
+            </div>
+            <div class="sticky s-orange" style="width:190px;">
+              <strong>Netztransformation</strong>
+              BET · Rödl
+              <div class="arrow">→ Unterseite Netzinfrastruktur</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Zielgruppen -->
+        <div>
+          <div class="sub-label" style="color:#553c9a;">Zielgruppen-Seiten fehlen</div>
+          <div class="sticky-col">
+            <div class="sticky s-purple" style="width:200px;">
+              <div class="stag">Top-Priorität</div>
+              <strong>Stadtwerke</strong>
+              Rödl · BET · GPP haben das
+              <div class="arrow">→ Eigene Landingpage erstellen!</div>
+            </div>
+            <div class="sticky s-purple" style="width:200px;">
+              <strong>Netzbetreiber</strong>
+              BET · Rödl
+              <div class="arrow">→ Unterseite Energiewirtschaft</div>
+            </div>
+            <div class="sticky s-purple" style="width:200px;">
+              <strong>Kommunale Unternehmen</strong>
+              Heilmaier · GPP
+              <div class="arrow">→ Stärken, teilweise vorhanden</div>
+            </div>
+            <div class="sticky s-purple" style="width:200px;">
+              <strong>Investoren / Finanzierungspartner</strong>
+              BET · Rödl · Ebner Stolz
+              <div class="arrow">→ Optional</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         SECTION 4 — KEYWORDS
+    ════════════════════════════════════════════════════════════════════ -->
+    <div class="section bg-keywords" style="left:1330px;top:60px;width:660px;">
+      <div class="section-label" style="color:#2b6cb0;">SEO-Potenzial</div>
+      <div class="section-title" style="color:#1e3a5f;">Keyword-Gaps</div>
+
+      <div style="display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap;">
+
+        <div>
+          <div class="sub-label" style="color:#2b6cb0;">Transaktional — hohe Conversion</div>
+          <div class="sticky-col">
+            <div class="sticky s-blue" style="width:190px;"><strong>Energiewirtschaft Beratung</strong>Energieberater Stadtwerke</div>
+            <div class="sticky s-blue" style="width:190px;"><strong>Regulierungsmanagement</strong>Energieversorgung</div>
+            <div class="sticky s-blue" style="width:190px;"><strong>Wirtschaftsprüfung Stadtwerke</strong></div>
+            <div class="sticky s-blue" style="width:190px;"><strong>Steuerberatung Energieunternehmen</strong></div>
+            <div class="sticky s-blue" style="width:190px;"><strong>Konzessionsberatung Strom Gas</strong></div>
+            <div class="sticky s-blue" style="width:190px;"><strong>Wärmewende Beratung Kommunen</strong></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="sub-label" style="color:#276749;">Informationell — Traffic & Vertrauen</div>
+          <div class="sticky-col">
+            <div class="sticky s-green" style="width:200px;">
+              <div class="stag">ES hat Vorsprung!</div>
+              <strong>Altschuldenentlastungsgesetz Stadtwerke</strong>
+              Expertise-Vorsprung nutzen!
+            </div>
+            <div class="sticky s-green" style="width:200px;"><strong>Wasserstoffstrategie Stadtwerke</strong></div>
+            <div class="sticky s-green" style="width:200px;"><strong>FFVAV Regulierung Erklärung</strong></div>
+            <div class="sticky s-green" style="width:200px;"><strong>Fernwärme Wirtschaftlichkeit</strong></div>
+            <div class="sticky s-green" style="width:200px;"><strong>ESG Berichterstattung EVU</strong></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="sub-label" style="color:#744210;">Lokal — NRW-Fokus</div>
+          <div class="sticky-col">
+            <div class="sticky s-yellow" style="width:200px;"><strong>Energieberatung NRW</strong></div>
+            <div class="sticky s-yellow" style="width:200px;"><strong>Wirtschaftsprüfung Energieunternehmen NRW</strong></div>
+            <div class="sticky s-yellow" style="width:200px;"><strong>Steuerberatung Kommunalwirtschaft Nordrhein-Westfalen</strong></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         SECTION 5 — TECH SEO
+    ════════════════════════════════════════════════════════════════════ -->
+    <div class="section bg-tech" style="left:1330px;top:680px;width:660px;">
+      <div class="section-label" style="color:#c05621;">Technisch</div>
+      <div class="section-title" style="color:#7c2d12;">Tech-SEO Relaunch-Checkliste</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        <div class="sticky s-red" style="width:190px;">
+          <div class="stag">Hoch</div>
+          <strong>Redirect-Ketten bereinigen</strong>
+          /infoplan · /kontakt1 → 301s sauber aufsetzen
+        </div>
+        <div class="sticky s-red" style="width:190px;">
+          <div class="stag">Hoch</div>
+          <strong>404-Seiten fixen</strong>
+          Tote Links entfernen oder weiterleiten
+        </div>
+        <div class="sticky s-red" style="width:190px;">
+          <div class="stag">Hoch</div>
+          <strong>XML-Sitemap</strong>
+          Korrekt einbinden + in Google Search Console einreichen
+        </div>
+        <div class="sticky s-orange" style="width:190px;">
+          <div class="stag">Mittel</div>
+          <strong>Meta Descriptions & Title Tags</strong>
+          Pro Seite individuell optimieren
+        </div>
+        <div class="sticky s-orange" style="width:190px;">
+          <div class="stag">Mittel</div>
+          <strong>Schema.org Markup</strong>
+          Organization · Service · FAQ
+        </div>
+        <div class="sticky s-orange" style="width:190px;">
+          <div class="stag">Mittel</div>
+          <strong>Blog-/News-Archivstruktur</strong>
+          Für Content-Strategie anlegen
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         SECTION 6 — ROADMAP
+    ════════════════════════════════════════════════════════════════════ -->
+    <div class="section bg-roadmap" style="left:2040px;top:60px;width:780px;">
+      <div class="section-label" style="color:#276749;">Planung</div>
+      <div class="section-title" style="color:#14532d;">Relaunch-Roadmap</div>
+
+      <div class="phase-cols">
+
+        <div class="phase-col">
+          <div class="phase-header ph-blue">Phase 1<br>Fundament<br><span style="font-weight:400;font-size:11px;">Relaunch-Basis</span></div>
+          <div class="sticky s-blue" style="width:220px;"><strong>1. Technische SEO bereinigen</strong>Redirects · 404 · Sitemap</div>
+          <div class="sticky s-blue" style="width:220px;"><strong>2. Title Tags & Meta Descriptions</strong>Alle Seiten individuell optimieren</div>
+          <div class="sticky s-blue" style="width:220px;"><strong>3. Landingpage: Stadtwerke</strong>Dedizierte Zielgruppen-Seite erstellen</div>
+          <div class="sticky s-blue" style="width:220px;"><strong>4. Seite: Erneuerbare Energien</strong>Neues Themenfeld aufbauen</div>
+        </div>
+
+        <div class="phase-col">
+          <div class="phase-header ph-green">Phase 2<br>Content-Aufbau<br><span style="font-weight:400;font-size:11px;">3–6 Monate nach Launch</span></div>
+          <div class="sticky s-green" style="width:220px;"><strong>5. Blog / Aktuelles starten</strong>Mind. 1 Fachbeitrag pro Monat</div>
+          <div class="sticky s-green" style="width:220px;"><strong>6. Themencluster Wärmewende</strong>Übersicht + 3–4 Unterseiten</div>
+          <div class="sticky s-green" style="width:220px;"><strong>7. Referenzen / Kundenprojekte</strong>Seite mit Case Studies anlegen</div>
+          <div class="sticky s-green" style="width:220px;"><strong>8. Schema.org Markup</strong>Technisch implementieren</div>
+        </div>
+
+        <div class="phase-col">
+          <div class="phase-header ph-orange">Phase 3<br>Autorität aufbauen<br><span style="font-weight:400;font-size:11px;">6–12 Monate</span></div>
+          <div class="sticky s-orange" style="width:220px;"><strong>9. Studien / Whitepaper</strong>Als Lead-Magnete veröffentlichen</div>
+          <div class="sticky s-orange" style="width:220px;"><strong>10. Newsletter</strong>Für Stadtwerke & Kommunen</div>
+          <div class="sticky s-orange" style="width:220px;"><strong>11. Linkbuilding</strong>VKU · BDEW · Branchenverzeichnisse</div>
+          <div class="sticky s-orange" style="width:220px;"><strong>12. Wasserstoff & Dekarbonisierung</strong>Themen ausbauen</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         SECTION 7 — QUICK WINS / STÄRKEN
+    ════════════════════════════════════════════════════════════════════ -->
+    <div class="section bg-wins" style="left:2040px;top:660px;width:780px;">
+      <div class="section-label" style="color:#b7791f;">Chancen</div>
+      <div class="section-title" style="color:#744210;">Stärken ausbauen — Quick Wins</div>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;">
+
+        <div class="win-sticky">
+          <div class="star">⭐</div>
+          <strong>APIS / Regulatorisches Managementcockpit</strong>
+          <p>Einzigartiges Tool — kaum ein Wettbewerber hat sowas. Wird auf der aktuellen Website kaum ausgespielt.</p>
+          <div class="cta">→ Eigene SEO-Seite + Case Study erstellen</div>
+        </div>
+
+        <div class="win-sticky">
+          <div class="star">⭐</div>
+          <strong>70 Jahre Erfahrung + NRW-Fokus</strong>
+          <p>Starkes Trust-Signal, das auf der aktuellen Website kaum sichtbar ist. Lokaler Fokus ist ein echter Differenziator.</p>
+          <div class="cta">→ Lokale SEO stärken · Über-uns Seite ausbauen</div>
+        </div>
+
+        <div class="win-sticky">
+          <div class="star">⭐</div>
+          <strong>Altschuldenentlastungsgesetz</strong>
+          <p>Aktuelles Gesetz, ES kennt es besser als die meisten Wettbewerber. Kaum Content dazu im Netz.</p>
+          <div class="cta">→ Ratgeber/Fachbeitrag = organischer Traffic-Magnet</div>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!-- /canvas -->
+</div><!-- /canvas-wrap -->
+
+<script>
+  let scale = 0.65;
+  let tx = 0, ty = 60;
+  let dragging = false;
+  let startX, startY, startTx, startTy;
+
+  const canvas = document.getElementById('canvas');
+  const wrap   = document.getElementById('canvas-wrap');
+  const label  = document.getElementById('zoom-label');
+
+  function applyTransform() {
+    canvas.style.transform = `translate(${tx}px,${ty}px) scale(${scale})`;
+    label.textContent = Math.round(scale * 100) + '%';
+  }
+
+  function zoom(delta, cx, cy) {
+    cx = cx ?? wrap.clientWidth  / 2;
+    cy = cy ?? wrap.clientHeight / 2;
+    const prev = scale;
+    scale = Math.min(2, Math.max(0.2, scale + delta));
+    const ratio = scale / prev;
+    tx = cx - ratio * (cx - tx);
+    ty = cy - ratio * (cy - ty);
+    applyTransform();
+  }
+
+  function resetView() {
+    scale = 0.65; tx = 0; ty = 60;
+    applyTransform();
+  }
+
+  function fitAll() {
+    const canvasW = 2860, canvasH = 1300;
+    const vw = wrap.clientWidth - 80;
+    const vh = wrap.clientHeight - 80;
+    scale = Math.min(vw / canvasW, vh / canvasH, 1);
+    tx = (wrap.clientWidth  - canvasW * scale) / 2;
+    ty = (wrap.clientHeight - canvasH * scale) / 2;
+    applyTransform();
+  }
+
+  // mouse drag
+  wrap.addEventListener('mousedown', e => {
+    if (e.target.closest('.sticky, .win-sticky')) return;
+    dragging = true;
+    startX = e.clientX; startY = e.clientY;
+    startTx = tx; startTy = ty;
+    wrap.style.cursor = 'grabbing';
+  });
+  window.addEventListener('mousemove', e => {
+    if (!dragging) return;
+    tx = startTx + (e.clientX - startX);
+    ty = startTy + (e.clientY - startY);
+    applyTransform();
+  });
+  window.addEventListener('mouseup', () => {
+    dragging = false;
+    wrap.style.cursor = 'default';
+  });
+
+  // scroll to zoom
+  wrap.addEventListener('wheel', e => {
+    e.preventDefault();
+    const delta = e.deltaY > 0 ? -0.08 : 0.08;
+    zoom(delta, e.clientX, e.clientY);
+  }, { passive: false });
+
+  applyTransform();
+</script>
+</body>
+</html>
