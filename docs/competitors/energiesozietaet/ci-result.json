@@ -1,0 +1,370 @@
+[
+  {
+    "path": "/",
+    "score": 0.98,
+    "performance": 0.92,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/anmeldung",
+    "score": 0.95,
+    "performance": 0.91,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/datenschutz",
+    "score": 0.95,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/impressum",
+    "score": 0.94,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/karriere",
+    "score": 0.95,
+    "performance": 0.88,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/karriere/referendar-und-wissenschaftlicher-mitarbeiter-m/w/d-1",
+    "score": 0.98,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/karriere/referendar-und-wissenschaftlicher-mitarbeiter-m/w/d-1-1",
+    "score": 0.97,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/karriere/werkstudent-/-wissenschaftlicher-mitarbeiter-m/w/d",
+    "score": 0.97,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/kontakt",
+    "score": 0.95,
+    "performance": 0.9,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/leistungen",
+    "score": 0.94,
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/leistungen/energie-1",
+    "score": 0.97,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/gluecksspielrecht-1",
+    "score": 0.97,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/rechtsberatung",
+    "score": 0.94,
+    "performance": 0.86,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/leistungen/steuerrecht-1",
+    "score": 0.97,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/steuerrecht-1-3",
+    "score": 0.97,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/steuerrecht-1-4",
+    "score": 0.98,
+    "performance": 0.92,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/steuerrecht-1-4-1",
+    "score": 0.97,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/unternehmensberatung",
+    "score": 0.92,
+    "performance": 0.88,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/leistungen/unternehmensberatung/erneuerbare-energien",
+    "score": 0.97,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/unternehmensberatung/kooperation-und-transaktion",
+    "score": 0.97,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/unternehmensberatung/projektmanagement",
+    "score": 0.97,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/unternehmensberatung/regulierung",
+    "score": 0.97,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/unternehmensberatung/waerme",
+    "score": 0.97,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/unternehmensberatung/wasserstoff",
+    "score": 0.97,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/leistungen/unternehmensberatung/wasserwirtschaft",
+    "score": 0.97,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/news",
+    "score": 0.92,
+    "performance": 0.74,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/news/detail/chancen-der-neuen-landesbauordnung-in-nrw-nutzen",
+    "score": 0.83,
+    "performance": 0.75,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.58
+  },
+  {
+    "path": "/news/detail/die-energiepreisbremsen-sollen-verlaengert-werden",
+    "score": 0.85,
+    "performance": 0.81,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.58
+  },
+  {
+    "path": "/news/detail/dr-joerg-geerlings-kommentiert-massgebliche-vorschriften-in-nrw-verfassungskommentar",
+    "score": 0.87,
+    "performance": 0.82,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.66
+  },
+  {
+    "path": "/news/detail/elektronische-rechnung-zum-01012025",
+    "score": 0.87,
+    "performance": 0.82,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.66
+  },
+  {
+    "path": "/news/detail/fernwaermeversorgung-kuenftig-klimaneutral",
+    "score": 0.86,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.58
+  },
+  {
+    "path": "/news/detail/gemeinden-muessen-keine-vorbehaltsklauseln-nach-buergerenergiegesetz-nrw-akzeptieren",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.66
+  },
+  {
+    "path": "/news/detail/honorarkraefte-an-musikschulen-nicht-automatisch-arbeitnehmer",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.66
+  },
+  {
+    "path": "/news/detail/planer-ist-kein-vergaberechtsanwalt",
+    "score": 0.88,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.66
+  },
+  {
+    "path": "/philosophie",
+    "score": 0.96,
+    "performance": 0.88,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/publikationen",
+    "score": 0.97,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/team",
+    "score": 0.93,
+    "performance": 0.76,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/team/detail/christopher-siebler",
+    "score": 0.86,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.58
+  },
+  {
+    "path": "/team/detail/elke-beermann",
+    "score": 0.86,
+    "performance": 0.85,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.58
+  },
+  {
+    "path": "/team/detail/frank-stein",
+    "score": 0.86,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.58
+  },
+  {
+    "path": "/team/detail/hartmut-mueller",
+    "score": 0.86,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.58
+  },
+  {
+    "path": "/team/detail/jana-fengler",
+    "score": 0.86,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.58
+  },
+  {
+    "path": "/team/detail/nina-opitz",
+    "score": 0.86,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.58
+  },
+  {
+    "path": "/team/detail/torsten-stockem",
+    "score": 0.86,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.58
+  },
+  {
+    "path": "/team/detail/yvonne-niethe",
+    "score": 0.86,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.58
+  },
+  {
+    "path": "/veranstaltungen",
+    "score": 0.96,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.92
+  }
+]

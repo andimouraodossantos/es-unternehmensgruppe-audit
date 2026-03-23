@@ -1,0 +1,1578 @@
+[
+  {
+    "path": "/",
+    "score": 0.87,
+    "performance": 0.9,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/",
+    "score": 0.88,
+    "performance": 0.93,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/corporate-development-51080.html",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/die-wetteraussichten-in-der-ernaehrungsindustrie-2017-heiter-bis-wolkig-1493.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/digitalisierung-im-mittelstand-integrierte-geschaeftsprozesse-organisationsweit-71850.html",
+    "score": 0.89,
+    "performance": 0.99,
+    "accessibility": 0.66,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/bewerbungsprozess/",
+    "score": 0.92,
+    "performance": 0.97,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/bewerbungsprozess/bewerbungsprozess-66592.html",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/dein-weg-zu-uns/",
+    "score": 0.89,
+    "performance": 0.98,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/female-leadership/",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/",
+    "score": 0.79,
+    "performance": 0.55,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/berlin/berlin-62224.html",
+    "score": 0.84,
+    "performance": 0.68,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/bonn/bonn-60303.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/bremen/bremen-60305.html",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/duesseldorf-60293.html",
+    "score": 0.89,
+    "performance": 0.92,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/job-journey-mit-bonny-bayer-95344.html",
+    "score": 0.89,
+    "performance": 0.95,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/job-journey-mit-elisa-eisenhauer-66474.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/job-journey-mit-fuat-kalkan-72874.html",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/job-journey-mit-michelle-roepke-66472.html",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/ravensburg/",
+    "score": 0.86,
+    "performance": 0.75,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/willkommen-in-unserem-office-in-hamburg-66464.html",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/insights/willkommen-in-unserem-office-in-koeln-66466.html",
+    "score": 0.86,
+    "performance": 0.85,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/interviews-einsteiger/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/interviews-einsteiger/esg-fuer-einsteiger-projekt-zur-erstellung-des-nachhaltigkeitsberichts.-62109.html",
+    "score": 0.9,
+    "performance": 0.98,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/interviews-einsteiger/high-potential-werte-als-echter-benefit-99400.html",
+    "score": 0.91,
+    "performance": 0.93,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/interviews-einsteiger/informationssicherheit-vielfaeltige-themengebiete-und-projekte-steile-lernkurven-61838.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/interviews-einsteiger/interview-lucas-scupin-96416.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/interviews-einsteiger/interview-ronja-lto-99523.html",
+    "score": 0.88,
+    "performance": 0.81,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/interviews-einsteiger/unternehmen-auf-die-beine-helfen-61823.html",
+    "score": 0.92,
+    "performance": 0.97,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/interviews-einsteiger/video-podcast-wirtschaftspruefung-kann-mehr-zukunft-machen-62119.html",
+    "score": 0.9,
+    "performance": 0.98,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/interviews-einsteiger/von-der-marine-zum-it-auditor-90400.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/recruiti-publikationen/high-potential-erfolgsgarant-praktikum-13796.html",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/recruiti-publikationen/high-potential-informatikerinnen-wp-13798.html",
+    "score": 0.89,
+    "performance": 0.93,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/recruiti-publikationen/informationen-zum-datenschutz-fuer-potenzielle-bewerber-75414.html",
+    "score": 0.88,
+    "performance": 0.94,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/recruiti-publikationen/new-network-14208.html",
+    "score": 0.84,
+    "performance": 0.73,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/recruiti-publikationen/recruitingflyer-6490.html",
+    "score": 0.89,
+    "performance": 0.96,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/recruiti-publikationen/rsm-ebner-stolz-management-consulting-5644.html",
+    "score": 0.8,
+    "performance": 0.74,
+    "accessibility": 0.61,
+    "best-practices": 1,
+    "seo": 0.83
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/recruiti-publikationen/rueckenwind-dein-ebner-stolz-karriere-podcast-55228.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/recruiti-publikationen/weiterbildungsangebot-wirtschaftspruefung-steuerberatung-13552.html",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/talent-acquisition-team/",
+    "score": 0.89,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 0.96,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/unser-selbstverstaendnis-und-unsere-werte/",
+    "score": 0.91,
+    "performance": 0.99,
+    "accessibility": 0.72,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/arbeiten-bei-rsm-ebner-stolz/unsere-benefits/",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/berufserfahren-5753.html",
+    "score": 0.89,
+    "performance": 0.94,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/",
+    "score": 0.89,
+    "performance": 0.96,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/ausbildung-duales_studium/",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/ausbildung-duales_studium/ausbildung/",
+    "score": 0.92,
+    "performance": 0.97,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/ausbildung-duales_studium/duales-studium/",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/ausbildung-duales_studium/schuelerinnen-und-schueler-5749.html",
+    "score": 0.83,
+    "performance": 0.74,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/berufseinstieg/",
+    "score": 0.9,
+    "performance": 0.88,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/berufseinstieg/absolventen/",
+    "score": 0.89,
+    "performance": 0.98,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/berufseinstieg/fachliche-schwerpunkte/",
+    "score": 0.89,
+    "performance": 0.98,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/berufseinstieg/fachliche-schwerpunkte/digitale-transformation/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/berufseinstieg/fachliche-schwerpunkte/financial-services/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/berufseinstieg/fachliche-schwerpunkte/transaction-advisory-services/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/berufseinstieg/fachliche-schwerpunkte/umsatzsteuer/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/berufseinstieg/one-day-6479.html",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/berufseinstieg/praktikanten-und-werkstudierende/",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/berufseinstieg/referendare-wissenschaftliche_mitarbeitende/",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/berufseinstieg/studierende-und-absolventen-5751.html",
+    "score": 0.89,
+    "performance": 0.98,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/fachliche-schwerpunkte/digitale-transformation/",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/fachliche-schwerpunkte/financial-services/",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/fachliche-schwerpunkte/transaction-advisory-services/",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/fachliche-schwerpunkte/umsatzsteuer/",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/professionals/",
+    "score": 0.83,
+    "performance": 0.72,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/professionals/fachliche-schwerpunkte/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/professionals/fachliche-schwerpunkte/digitale-transformation/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/professionals/fachliche-schwerpunkte/financial-services/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/professionals/fachliche-schwerpunkte/transaction-advisory-services/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/professionals/fachliche-schwerpunkte/umsatzsteuer/",
+    "score": 0.89,
+    "performance": 0.97,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/professionals/jobs-fuer-professionals/",
+    "score": 0.89,
+    "performance": 0.96,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/professionals/rechtsberatung/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/professionals/service/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/professionals/unternehmensberatung/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/dein-platz-bei-rsm-ebner-stolz/professionals/wirtschaftspruefung-und-steuerberatung/",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/rueckenwind-podcast/",
+    "score": 0.89,
+    "performance": 0.97,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/rueckenwind-podcast/auf-kurs-bleiben-90821.html",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.71,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/rueckenwind-podcast/digital-detox-83179.html",
+    "score": 0.87,
+    "performance": 0.78,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/rueckenwind-podcast/familie-und-beruf-95451.html",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.71,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/rueckenwind-podcast/gegensaetze-im-team-93753.html",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/rueckenwind-podcast/hybrides-fuehren-86113.html",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/rueckenwind-podcast/keep-cool-71961.html",
+    "score": 0.92,
+    "performance": 0.97,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/rueckenwind-podcast/lebenslanges-lernen-als-erfolgsgeheimnis-54737.html",
+    "score": 0.91,
+    "performance": 0.94,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/rueckenwind-podcast/volles-leben-aber-klare-struktur-72097.html",
+    "score": 0.87,
+    "performance": 0.78,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/karriere/stellenangebote/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/stellenangebote/fachliche-schwerpunkte/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/unsere-fachbereiche/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/unsere-fachbereiche/rechtsberatung/",
+    "score": 0.88,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 0.83
+  },
+  {
+    "path": "/de/karriere/unsere-fachbereiche/services/",
+    "score": 0.89,
+    "performance": 0.96,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/unsere-fachbereiche/unternehmensberatung/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/unsere-fachbereiche/unternehmensberatung/einstieg-management-consulting-6488.html",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/unsere-fachbereiche/unternehmensberatung/einstieg-management-consulting-81243.html",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/unsere-fachbereiche/wirtschaftspruefung-und-steuerberatung/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/veranstaltungen/",
+    "score": 0.89,
+    "performance": 0.98,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/veranstaltungen/fakultaetskarrieretag-bremen-2026-95575.html",
+    "score": 0.82,
+    "performance": 0.75,
+    "accessibility": 0.72,
+    "best-practices": 0.96,
+    "seo": 0.85
+  },
+  {
+    "path": "/de/karriere/veranstaltungen/fakultaetskarrieretag-osnabrueck-99667.html",
+    "score": 0.82,
+    "performance": 0.75,
+    "accessibility": 0.72,
+    "best-practices": 0.96,
+    "seo": 0.85
+  },
+  {
+    "path": "/de/karriere/veranstaltungen/stellenwerk-messe-hamburg-99678.html",
+    "score": 0.84,
+    "performance": 0.75,
+    "accessibility": 0.72,
+    "best-practices": 0.96,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/karriere/vorbereitung-stb-examen/",
+    "score": 0.86,
+    "performance": 0.74,
+    "accessibility": 0.71,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/rechtsprechungsentwicklungen-im-umsatzsteuerrecht-78014.html",
+    "score": 0.83,
+    "performance": 0.73,
+    "accessibility": 0.66,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/schweiz-anhebung-safe-haven-zinssaetze-gruppenfinanzierungen-16081.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/testseite/test-level-2/test-level-3-5/",
+    "score": 0.9,
+    "performance": 0.98,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/abwehr-zahlungsunfaehigkeit-realisierbarkeit-forderungen-gegen-dritte-binnen-drei-wochen-96768.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/aufsichtsraete-beiraete/aufsichtsrats-update-mit-spannenden-praxiserkenntnissen-102127.html",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.72,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/auftragsverarbeitungsvereinbarung-nach-art.-28-dsgvo-90118.html",
+    "score": 0.9,
+    "performance": 0.98,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/energiekrise/",
+    "score": 0.91,
+    "performance": 0.95,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/energiekrise/energiepreisbremse-erfuellung-mitteilungspflichten-18535.html",
+    "score": 0.9,
+    "performance": 0.98,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/energiekrise/energiepreisbremse-erfuellung-mitteilungspflichten-19628.html",
+    "score": 0.89,
+    "performance": 0.87,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/energiekrise/energiepreisbremse-erfuellung-mitteilungspflichten-atypische-verbraeuche-18632.html",
+    "score": 0.89,
+    "performance": 0.83,
+    "accessibility": 0.72,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/energiekrise/energiepreispauschale-pfaendbar-18290.html",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/energiekrise/fristen-ueberschusserloesabschoepfung-schienenbahnen-18541.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/energiekrise/mehr-tempo-bei-verwaltungsgerichtlichen-verfahren-im-infrastrukturbereich-18351.html",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/energiekrise/risiken-problembereiche-energiepreisbremsen-18336.html",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.72,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/energiekrise/rsm-ebner-stolz-foerdermittel-quick-check-18771.html",
+    "score": 0.86,
+    "performance": 0.81,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/esg/cbam-bericht-hinweise-vorgehen-fehlende-emissionswerte-72765.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/esg/cbam-eu-kommission-schlaegt-vereinfachungen-vor-84836.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/esg/einwegkunststofffonds-plastiksteuer-17472.html",
+    "score": 0.88,
+    "performance": 0.8,
+    "accessibility": 0.72,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/esg/einwegkunststofffonds-plastiksteuer-74447.html",
+    "score": 0.92,
+    "performance": 0.97,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/esg/entwaldungsfreie-lieferketten-16809.html",
+    "score": 0.87,
+    "performance": 0.79,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/esg/entwurf-delegierter-rechtsakts-european-sustainability-reporting-standards-16851.html",
+    "score": 0.87,
+    "performance": 0.82,
+    "accessibility": 0.72,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/esg/hand-in-hand-fuer-mehr-nachhaltigkeit-inur-vereint-wissenschaft-praxis-und-politik-16654.html",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/esg/regierungsentwurf-verpackungsrecht-durchfuehrungsgesetz-101995.html",
+    "score": 0.86,
+    "performance": 0.75,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/finanzierung/private-equity/",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/finanzierung/venture-capital/",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/haftung-geschaeftsfuehrer-fuer-zahlungen-nach-eintritt-insolvenzreife-gmbh-16258.html",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/betriebsstaetten/",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.71,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/doing-business-in-germany/",
+    "score": 0.89,
+    "performance": 0.86,
+    "accessibility": 0.71,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/doing-business-in-germany/4k-estg-74577.html",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/international-business/doing-business-in-germany/einfuehrung-verpflichtende-erechnung-deutschland-19891.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/doing-business-in-germany/handlungsbedarf-nach-dem-barrierefreiheitsstaerkungsgesetz-87210.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/doing-business-in-germany/meldepflichten-auslandsbeteiligungen-75090.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/doing-business-in-germany/offenlegungspflicht-ertragsteuerdaten-public-cbcr-94189.html",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/doing-business-in-germany/steuerliche-abschreibungsmoeglichkeiten-de-94770.html",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/doing-business-in-germany/steuerliche-forschungsfoerderung-deutschland-19887.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/doing-business-in-germany/wandel-steuerliche-verlustnutzung-20067.html",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/global-mobility/",
+    "score": 0.9,
+    "performance": 0.9,
+    "accessibility": 0.71,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/global-mobility/antragsveranlagung-deutscher-arbeitnehmer-schweiz-71777.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/global-mobility/anwendbarkeit-sozialversicherungsrecht-a1-bescheinigung-71785.html",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/global-mobility/besteuerung-grenzgaenger-deutschland-schweiz-71781.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/global-mobility/bmf-steuerliche-behandlung-arbeitslohn-dba-17994.html",
+    "score": 0.91,
+    "performance": 0.95,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/global-mobility/fragen-lohnsteuerberechnung-tagestabelle-19785.html",
+    "score": 0.9,
+    "performance": 0.98,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/international-business/global-mobility/lohnsteuerberechnung-zeitweise-taetigkeit-inland-16786.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/global-mobility/managing-business-globally-94936.html",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/global-mobility/reichweite-fiktive-unbeschraenkte-steuerpflicht-19871.html",
+    "score": 0.91,
+    "performance": 0.95,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/iinternationale-betriebspruefungen/",
+    "score": 0.93,
+    "performance": 0.99,
+    "accessibility": 0.71,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-desks/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-desks/china-desk/",
+    "score": 0.86,
+    "performance": 0.77,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-desks/china-desk/investitionsabkommen-zwischen-der-eu-und-china-17797.html",
+    "score": 0.91,
+    "performance": 0.92,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-desks/french-desk/",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-desks/french-desk/steuern-im-deutsch-franzoesischen-kontext-16041.html",
+    "score": 0.9,
+    "performance": 0.96,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/international-business/international-desks/india-desk/",
+    "score": 0.86,
+    "performance": 0.84,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/international-business/international-desks/india-desk/deutsch-indische-geschaeftsentwicklung-aktueller-blick-auf-2024-72428.html",
+    "score": 0.87,
+    "performance": 0.79,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-desks/india-desk/scholz-in-indien-16158.html",
+    "score": 0.9,
+    "performance": 0.96,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/international-business/international-news/",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-news/grossbritannien-autumn-budget-2024-72621.html",
+    "score": 0.86,
+    "performance": 0.82,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/international-business/international-news/kritik-zinsabzugsbeschraenkung-kanada-92828.html",
+    "score": 0.89,
+    "performance": 0.86,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-news/neue-verrechnungspreisvorgaben-brasilien-16843.html",
+    "score": 0.87,
+    "performance": 0.78,
+    "accessibility": 0.71,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-news/niederlande-aenderung-abgabefrist-fuer-ergaenzende-umsatzsteuererklaerung-86727.html",
+    "score": 0.88,
+    "performance": 0.81,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-news/niederlande-aenderung-abgabefrist-umsatzsteuererklaerung-85402.html",
+    "score": 0.9,
+    "performance": 0.88,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-news/pillar-ii-meldepflicht-in-frankreich-87313.html",
+    "score": 0.88,
+    "performance": 0.84,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-news/uk-pillar-ii-registrierungspflicht-2025-89251.html",
+    "score": 0.89,
+    "performance": 0.86,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/international-news/wichtige-steuerrechtsaenderungen-2025-ungarn-84734.html",
+    "score": 0.87,
+    "performance": 0.76,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/praktische-umsetzung-der-globalen-mindeststeuer-herkulesaufgabe-fuer-die-unternehmen-16667.html",
+    "score": 0.92,
+    "performance": 0.95,
+    "accessibility": 0.72,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/verrechnungspreise/",
+    "score": 0.92,
+    "performance": 0.97,
+    "accessibility": 0.71,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/verrechnungspreise/deutsche-verwaltungsgrundsaetze-verrechnungspreise-2024-89429.html",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/international-business/verrechnungspreise/keine-funktionsverlagerung-ohne-verlagerung-von-wirtschaftsguetern-72134.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/verrechnungspreise/mehr-rechtssicherheit-bei-gruppeninternen-finanzierungstransaktionen-21777.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/verrechnungspreise/sanktionen-verrechnungspreisdokumentation-17805.html",
+    "score": 0.87,
+    "performance": 0.76,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/verrechnungspreise/umsetzung-transaktionsmatrix-98869.html",
+    "score": 0.88,
+    "performance": 0.82,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/verrechnungspreise/verschaerfungen-verrechnungspreisdokumentationen-71551.html",
+    "score": 0.92,
+    "performance": 0.97,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/verrechnungspreise/verschaerfungen-verrechnungspreise-finanzierungsbeziehungen-und-dienstleistungen-19809.html",
+    "score": 0.89,
+    "performance": 0.86,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/international-business/verrechnungspreise/verschaerfungen-vorlage-verrechnungspreisdokumentation-72116.html",
+    "score": 0.88,
+    "performance": 0.81,
+    "accessibility": 0.72,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/kapitalmarktorientierte-unternehmen/13-fachtagung-fuer-aufsichtsraete-2024-72365.html",
+    "score": 0.91,
+    "performance": 0.99,
+    "accessibility": 0.72,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/kapitalmarktorientierte-unternehmen/aktienrechtlicher-squeeze-out-17937.html",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/kapitalmarktorientierte-unternehmen/aufsichtsrats-update-2024-impulse-fuer-bilanzsaison-83704.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/kapitalmarktorientierte-unternehmen/erfolgreiches-aufsichtsrats-update-fuer-die-bilanzsaison-2023-18201.html",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/ki-investoren-plug-in-85335.html",
+    "score": 0.88,
+    "performance": 0.8,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/liquiditaetssicherung-51590.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/news/die-freiheit-der-erwachsenen-heisst-verantwortung-89839.html",
+    "score": 0.91,
+    "performance": 0.95,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/news/esg/",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/news/ki-und-technologien/",
+    "score": 0.9,
+    "performance": 0.98,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/news/quo-vadis-usa-19553.html",
+    "score": 0.92,
+    "performance": 0.97,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/news/recht/",
+    "score": 0.83,
+    "performance": 0.73,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/news/steuern/",
+    "score": 0.89,
+    "performance": 0.96,
+    "accessibility": 0.67,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/news/steuern/bmf-entwurf-schreiben-anwendung-cbcr-personengesellschaften-76683.html",
+    "score": 0.89,
+    "performance": 0.89,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/news/steuern/bmf-reisekosten-betrieblich-und-beruflich-veranlasste-auslandsreisen-ab-01.01.2025-76678.html",
+    "score": 0.89,
+    "performance": 0.85,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/news/steuern/bmf-steuerliche-massnahmen-unterstuetzung-ukraine-kriegsgeschaedigte-76674.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/news/steuern/zweiter-diskussionsentwurf-mindeststeueranpassungsgesetz-76687.html",
+    "score": 0.89,
+    "performance": 0.82,
+    "accessibility": 0.72,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/news/steuerthemen-bundestagswahlprogramme-2025-78511.html",
+    "score": 0.91,
+    "performance": 0.95,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/news/wirtschaftspruefung/",
+    "score": 0.9,
+    "performance": 0.98,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/de/themen/personengesellschaftskonzerne/abzugsverbot-8b-abs.-3-satz-4-kstg-gesellschafterdarlehen-personengesellschaftsstrukturen-89630.html",
+    "score": 0.92,
+    "performance": 0.97,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/personengesellschaftskonzerne/anwendung-cbcr-und-cbcr-safe-harbour-personengesellschaften-89662.html",
+    "score": 0.91,
+    "performance": 0.92,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/personengesellschaftskonzerne/case-studies-mittelstand-hinzurechnungsbesteuerung-bei-auslaendischer-vertriebsgesellschaft-88521.html",
+    "score": 0.88,
+    "performance": 0.82,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/private-clients/family-offices/",
+    "score": 0.92,
+    "performance": 0.98,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/private-clients/family-offices/family-office-von-heute-22076.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/private-clients/private-client-services/",
+    "score": 0.91,
+    "performance": 0.93,
+    "accessibility": 0.69,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/private-clients/private-client-services/anwendung-der-strengen-trennungstheorie-bei-uebertragung-von-wirtschaftsguetern-im-privatvermoegen-19653.html",
+    "score": 0.87,
+    "performance": 0.77,
+    "accessibility": 0.7,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/de/themen/private-clients/private-client-services/auswirkungen-verlustruecktrag-auf-gesamtbetrag-der-einkuenfte-17103.html",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.68,
+    "best-practices": 1,
+    "seo": 1
+  }
+]

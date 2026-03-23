@@ -1,0 +1,314 @@
+[
+  {
+    "path": "/",
+    "score": 0.92,
+    "performance": 0.82,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/aktuelles/",
+    "score": 0.89,
+    "performance": 0.72,
+    "accessibility": 0.91,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/barrierefreiheitserklaerung/",
+    "score": 0.93,
+    "performance": 0.84,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/datenschutzerklaerung/",
+    "score": 0.94,
+    "performance": 0.84,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/gesundheits-und-sozialer-sektor/",
+    "score": 0.9,
+    "performance": 0.69,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/gesundheits-und-sozialer-sektor/altenheime/",
+    "score": 0.93,
+    "performance": 0.81,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/gesundheits-und-sozialer-sektor/behindertenwerkstaetten/",
+    "score": 0.95,
+    "performance": 0.88,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/gesundheits-und-sozialer-sektor/krankenhaeuser/",
+    "score": 0.94,
+    "performance": 0.86,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/gesundheits-und-sozialer-sektor/sonstige-soziale-einrichtungen/",
+    "score": 0.93,
+    "performance": 0.79,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/gesundheits-und-sozialer-sektor/vereine-und-stiftungen/",
+    "score": 0.93,
+    "performance": 0.79,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/impressum/",
+    "score": 0.93,
+    "performance": 0.84,
+    "accessibility": 0.95,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/jet-menu/elementor-mega-item-4193/",
+    "score": 0.92,
+    "performance": 0.82,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/jet-menu/elementor-mega-item-4285/",
+    "score": 0.88,
+    "performance": 0.69,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/jet-menu/mega-item-2556/",
+    "score": 0.9,
+    "performance": 0.77,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/jet-menu/mega-item-3058/",
+    "score": 0.92,
+    "performance": 0.83,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/jet-menu/mega-item-37/",
+    "score": 0.92,
+    "performance": 0.82,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/jet-menu/mega-item-38/",
+    "score": 0.92,
+    "performance": 0.83,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/jet-menu/mega-item-518/",
+    "score": 0.92,
+    "performance": 0.82,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.85
+  },
+  {
+    "path": "/karriere/",
+    "score": 0.91,
+    "performance": 0.78,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/kontakt/",
+    "score": 0.86,
+    "performance": 0.54,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/oeffentlicher-sektor/",
+    "score": 0.91,
+    "performance": 0.73,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/oeffentlicher-sektor/energie-und-wasserversorgung/",
+    "score": 0.92,
+    "performance": 0.78,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/oeffentlicher-sektor/entsorgung-bauhoefe-staedt-betriebe/",
+    "score": 0.95,
+    "performance": 0.87,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/oeffentlicher-sektor/hochschulen/",
+    "score": 0.93,
+    "performance": 0.8,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/oeffentlicher-sektor/kommunen/",
+    "score": 0.92,
+    "performance": 0.75,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/oeffentlicher-sektor/sport-kultur-bildungs-und-freizeiteinrichtungen/",
+    "score": 0.94,
+    "performance": 0.83,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/oeffentlicher-sektor/verkehrsbetriebe/",
+    "score": 0.92,
+    "performance": 0.75,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/oeffentlicher-sektor/wirtschaftsfoerderungs-und-grundstuecksunternehmen/",
+    "score": 0.94,
+    "performance": 0.86,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/privater-sektor/",
+    "score": 0.9,
+    "performance": 0.69,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/privater-sektor/privatpersonen/",
+    "score": 0.93,
+    "performance": 0.81,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/privater-sektor/unternehmen-unterschiedlicher-branchen/",
+    "score": 0.93,
+    "performance": 0.81,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/rechtliche-hinweise/",
+    "score": 0.91,
+    "performance": 0.7,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/rechtsberatung/",
+    "score": 0.93,
+    "performance": 0.8,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/stellenanzeigen/steuer-pruefungsassistenten-w-m-d/",
+    "score": 0.98,
+    "performance": 0.95,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/stellenanzeigen/verwaltungsassistenz-m-w-d/",
+    "score": 0.95,
+    "performance": 0.83,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/steuerberatung/",
+    "score": 0.93,
+    "performance": 0.79,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/unternehmensberatung/",
+    "score": 0.93,
+    "performance": 0.82,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/veranstaltungen/",
+    "score": 0.93,
+    "performance": 0.8,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/wirtschaftspruefung/",
+    "score": 0.93,
+    "performance": 0.8,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 0.92
+  }
+]
